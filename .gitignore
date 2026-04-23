@@ -1,0 +1,39 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Numba AOT caches
+*.nbc
+*.nbi
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.so
+*.pyd
+*.obj
+*.lib
+*.exp
+# Ship the prebuilt Windows CPython 3.10 extension so users without a compiler
+# can run the examples directly. Rebuild with: python prod/setup.py build_ext --inplace
+!prod/autocall_pricer_lv.cp310-win_amd64.pyd
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS / Office junk
+.DS_Store
+Thumbs.db
+~$*
+
+# Project outputs (regenerable)
+outputs/
