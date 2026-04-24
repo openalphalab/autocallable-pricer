@@ -5,6 +5,10 @@ built end-to-end through conversation with Claude Opus 4.7. From raw
 American-style option prices to a calibrated pricer, a coupon solver, a
 seasoned-note backtest, and a delta-replicated hedging strategy.
 
+For more details, please check my Linkedin article here
+
+https://www.linkedin.com/pulse/vibe-autocallable-pricing-opus-47-ganchi-zhang-bnaxe/
+
 > **Disclaimer.** Essentially every line of code in this repo was written by
 > an LLM. It prices and backtests cleanly on the bundled data, but this is an
 > experiment — **not production software, not trading advice**. Review it
